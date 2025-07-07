@@ -5,8 +5,6 @@ import pdfplumber
 import spacy
 import re
 from spacy.lang.en.stop_words import STOP_WORDS
-import subprocess
-import sys
 import spacy
 nlp = spacy.load("en_core_web_sm")
 
