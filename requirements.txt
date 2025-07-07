@@ -1,9 +1,10 @@
 streamlit
 pdfplumber
-spacy
+spacy==3.7.2
 scikit-learn
 sentence-transformers
 pandas
 
-# Download en_core_web_sm model
+# Explicitly install spaCy model from official source
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
