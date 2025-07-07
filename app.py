@@ -5,17 +5,10 @@ import pdfplumber
 import spacy
 import re
 from spacy.lang.en.stop_words import STOP_WORDS
-import spacy
 import subprocess
 import sys
-
-# Ensure spaCy model is downloaded
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    subprocess.run([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
-    nlp = spacy.load("en_core_web_sm")
-
+import spacy
+nlp = spacy.load("en_core_web_sm")
 
 # Common skill list (you can expand this)
 SKILL_LIST = [
